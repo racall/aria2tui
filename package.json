@@ -1,0 +1,47 @@
+{
+  "name": "aria2tui",
+  "version": "1.1.0",
+  "description": "Cross-platform terminal UI tool for quickly configuring and executing aria2c download commands, with history management and resume support (macOS/Linux/Windows)",
+  "main": "aria2tui.js",
+  "bin": {
+    "aria2tui": "./aria2tui.js"
+  },
+  "scripts": {
+    "test": "node aria2tui.js --help"
+  },
+  "keywords": [
+    "aria2",
+    "aria2c",
+    "download",
+    "downloader",
+    "tui",
+    "terminal",
+    "cli",
+    "interactive",
+    "cross-platform",
+    "windows",
+    "linux",
+    "macos",
+    "下载",
+    "终端",
+    "交互式",
+    "跨平台"
+  ],
+  "author": "xiaoyi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/aria2tui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/aria2tui/issues"
+  },
+  "homepage": "https://github.com/yourusername/aria2tui#readme",
+  "files": [
+    "aria2tui.js",
+    "README.md"
+  ]
+}
