@@ -1,10 +1,11 @@
 {
   "name": "aria2tui",
-  "version": "1.1.0",
+  "version": "1.2.1",
+  "type": "module",
   "description": "Cross-platform terminal UI tool for quickly configuring and executing aria2c download commands, with history management and resume support (macOS/Linux/Windows)",
   "main": "aria2tui.js",
   "bin": {
-    "aria2tui": "./aria2tui.js"
+    "aria2tui": "aria2tui.js"
   },
   "scripts": {
     "test": "node aria2tui.js --help"
@@ -34,14 +35,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/aria2tui.git"
+    "url": "git+https://github.com/racall/aria2tui.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/aria2tui/issues"
+    "url": "https://github.com/racall/aria2tui/issues"
   },
-  "homepage": "https://github.com/yourusername/aria2tui#readme",
+  "homepage": "https://github.com/racall/aria2tui#readme",
   "files": [
     "aria2tui.js",
+    "lib/ansi.js",
+    "lib/config.js",
+    "lib/fields.js",
+    "lib/filebrowser.js",
+    "lib/history.js",
+    "lib/renderer.js",
+    "lib/ui.js",
+    "lib/utils.js",
     "README.md"
   ]
 }
